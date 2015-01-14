@@ -1,0 +1,95 @@
+body{
+     background-image: url(http://static.parade.com/wp-content/uploads/2014/04/Most-Frequently-Challenged-Book-ftr.jpg);
+     background-color: #e0ffff;
+     background-size: 100%;
+    }
+.head{
+    width:40%;
+    height: 50px;
+    background-color: #fffaf0;
+    border-radius: 15px;
+    }
+.pull-left{
+     position: absolute;
+    left: 0.25%;
+    }
+.pull-right{
+    position: absolute;
+    left: 20%;
+    }    
+    
+.nav{
+    width: 700px;
+    }
+
+.nav li{
+    display:inline;
+    font-family:helvetica;
+    color: #deb887;
+    width: 300px;
+    padding: 30px;
+    }
+    
+  h1{ 
+      position: absolute;
+      margin-top: 7%; 
+      margin-left: 10%;
+      font-family:helvetica;
+      color: #deb887;
+      text-shadow: 1px 1px 2px black;
+      padding-left: 20px;
+      }
+    
+.text{
+    color: #eedfcc;
+    font-weight: bold;
+    font-size: 22px;
+    font-family:tahoma, serif;
+    text-shadow: 1px 1px 2px black;
+    }
+    
+table{
+     position: absolute;
+     margin-top: 200px; 
+    background-color: hsla(300, 20%, 400%, 0.8);;
+    border: 2px solid #838b8b;
+    margin-left: 20px;
+    padding: 20px;
+    width: 30%;
+    height: 30%;
+            }
+
+        
+input{
+    border-radius: 5px;
+    }
+
+.button{
+     position: float;
+     margin-top: 500px;
+     margin-left: 100px;
+    background-color:#deb887;
+    color:#fff;
+    height: 50px;
+    width:100px;
+    margin-left: 10%;
+    }
+.copyright{
+    position:absolute;
+    color: white;
+    font-size: 12px;
+    text-align: left;
+    padding-left: 25%;
+    padding-top: 25%; 
+    /*margin-top: 1500;*/
+    /*margin-left: 2500;*/
+    font-family:tahoma;
+    }
+
+a {
+    text-decoration: none;
+    color: #303030;
+}
+.active-link{
+    text-decoration: underline;
+ }

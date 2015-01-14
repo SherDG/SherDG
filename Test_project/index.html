@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head><title>Books</title>
+	<link rel='stylesheet' href='style.css'/>
+	<!--<link rel='stylesheet' href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">-->
+	<script src='script.js'></script>
+</head>
+<body>
+<div class="head">
+<div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Catalog</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li class="active-link"><a href="#">Sign Up</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </div>
+ </div>
+<h1>Регистрация</h1>
+<form action="/echo" method="post">
+<table>
+ <tr>
+    <td class="text">Фамилия:</td>
+    <td><input name="LastName" id="Last_name" type="text" align="right"></td>
+</tr>
+<tr>
+    <td class="text">Имя:</td>
+    <td class="text"><input type="text"></input></td>
+</tr>
+<tr>
+    <td class="text">Email:</td>
+    <td class="text"><input type="text" ></input></td>
+</tr>
+<tr>
+    <td class="text"> Password:</td>
+    <td><input type="text" placeholder="Не меньше 6 символов"></input></td>
+</tr>
+<tr>
+    <td class="text"> Confirm password:</td>
+    <td><input type="text"></input></td>
+</tr>
+<tr>
+    <td class="text">Card number:</td>
+    <td><input type="text" placeholder="ХХХХ-ХХХХ-ХХХХ-ХХХХ"></input></td>
+</tr></table>
+</form>
+<input class="button" id="save" type="submit" value="Save">
+<input  class="button"id="back" type="submit" value="Back">
+<input class="button" id="exit" type="submit" value="Exit">
+
+<div class="copyright">Дмитрий Шерстюк&#174</div>
+</body>
+</html>
