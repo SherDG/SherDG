@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html>
-<head><title>Books</title>
+<head>
+  <meta charset="utf-8">
+  <title>Books</title>
 	<link rel='stylesheet' href='style.css'/>
 	<!--<link rel='stylesheet' href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">-->
-	<script src='script.js'></script>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+	<script type="text/javascript" src='script.js'></script>
 </head>
 <body>
+  // <script>
+  // $(function() {
+  //       alert ('jQuery working OK!');
+  //     });
+  // </script>
 <div class="head">
 <div class="nav">
       <div class="container">
@@ -20,38 +28,38 @@
         </ul>
       </div>
  </div>
-<h1>Регистрация</h1>
+<h1>Registrarion</h1>
 <form action="/echo" method="post">
 <table>
  <tr>
-    <td class="text">Фамилия:</td>
+    <td class="text">Last Name:</td>
     <td><input name="LastName" id="Last_name" type="text" align="right"></td>
 </tr>
 <tr>
-    <td class="text">Имя:</td>
-    <td class="text"><input type="text"></input></td>
+    <td class="text">Name:</td>
+    <td class="text"><input type="text" name="Name"></input></td>
 </tr>
 <tr>
     <td class="text">Email:</td>
-    <td class="text"><input type="text" ></input></td>
+    <td class="text"><input id="email" type="email" name="email" required placeholder="Enter a valid email address" onclick="isEmail()"></input><span id="status" ></span></td>
 </tr>
 <tr>
-    <td class="text"> Password:</td>
-    <td><input type="text" placeholder="Не меньше 6 символов"></input></td>
+    <td class="text">Password:</td>
+    <td><input type="password" placeholder="Not less 6 symbols" name="Password"></input></td>
 </tr>
 <tr>
-    <td class="text"> Confirm password:</td>
-    <td><input type="text"></input></td>
+    <td class="text">Confirm password:</td>
+    <td><input type="text" name="ConfirmPassword"></input></td>
 </tr>
 <tr>
     <td class="text">Card number:</td>
-    <td><input type="text" placeholder="ХХХХ-ХХХХ-ХХХХ-ХХХХ"></input></td>
+    <td><input type="text" placeholder="0000-0000-0000-0000" name="CardNumber"></input></td>
 </tr></table>
 </form>
-<input class="button" id="save" type="submit" value="Save">
+<input class="button" id="save" type="submit" value="Save" onclick="save()">
 <input  class="button"id="back" type="submit" value="Back">
 <input class="button" id="exit" type="submit" value="Exit">
 
-<div class="copyright">Дмитрий Шерстюк&#174</div>
+<div class="copyright">Dmitriy Sherstiuk&#174</div>
 </body>
 </html>

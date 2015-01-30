@@ -1,6 +1,7 @@
+@charset "UTF-8";
 body{
      background-image: url(http://static.parade.com/wp-content/uploads/2014/04/Most-Frequently-Challenged-Book-ftr.jpg);
-     background-color: #e0ffff;
+     background-color: white;
      background-size: 100%;
     }
 .head{
@@ -92,4 +93,11 @@ a {
 }
 .active-link{
     text-decoration: underline;
+ }
+ #status{
+  font-size: 12px;
+  font-family:tahoma, serif;
+  color: grey;
+  text-shadow: none;
+    
  }
